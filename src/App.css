@@ -1,0 +1,143 @@
+
+
+.App {
+  text-align: center;
+  background-color: var(--background-primary);
+  transition: all 0.2s ease-in-out;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.page-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background-primary);
+  transition: all 0.2s;
+}
+
+.btn {
+  background-color: var(--color-primary);
+  color: var(--title);
+  outline: 0;
+  border: 0px solid var(--color-primary);
+  border-radius: 6px;
+  height: 64px;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+  filter: brightness(1.14);
+  transform: scale(104%);
+}
+
+.btn.gradient {
+  background: linear-gradient(45deg, var(--color-primary) 50%, var(--color-secondary) 100%);
+}
+
+.btn.gradient:hover {
+  background: linear-gradient(45deg, var(--color-primary) 30%, var(--color-secondary) 100%);
+}
+
+
+.btn.outline {
+  background-color: transparent;
+  border: 2px solid var(--color-primary);
+}
+
+.btn.outline:hover {
+  background-color: #46ca2848;
+  color: var(--constant-white);
+}
+
+.hero-wrapper {
+  height: 80vh;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+
+.title {
+  color: var(--title);
+  font-weight: 500;
+  max-width: 40rem;
+  font-size: 2.25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title.large {
+  font-size: 3.75rem;
+  font-weight: bold;
+  max-width: 42rem;
+}
+
+.title.gradient {
+  background: linear-gradient(to right, var(--title) 10%, var(--color-primary) 50%, var(--title) 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.sub-text {
+  color: var(--text);
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nav-container {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+  list-style: none;
+  background-color: var(--background-secondary);
+  box-shadow: 0px 0px 14px -6px black;
+}
+.nav-container li {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--color-primary);
+  font-size: 24px;
+  margin: 0px 10px;
+  padding-top: 6px;
+  margin-top: 8px;
+}
+
+.nav-container li a {
+  color: var(--color-primary);
+}
+.nav-container li:hover {
+  background-color: #46ca2848;
+}
+
+.nav-container li:hover a {
+  color: var(--title);
+}
+
+.nav-container li.active {
+  background-color: #46ca2848;
+}
+
+.nav-container li.active a {
+  color: var(--title);
+}
+

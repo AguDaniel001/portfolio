@@ -1,15 +1,18 @@
 import React from 'react'
 import './App.css'
-import HeroMolecule from './components/HeroMolecule'
 import { BrowserRouter as Router, Route, Routes, Link} from "react-router"
 import { Home, Projects, About, Contact } from "./pages"
+
+
+import Navbar from './components/Navbar'
 
 
 function App() {
 
   return (
     <Router>
-      <div>
+      <div className='App'>
+        <div className='page-wrapper'>
      
         <Routes>
           <Route path='/' element={<Home />} />
@@ -18,18 +21,9 @@ function App() {
           <Route path='/contact' element={<Contact />} />
         </Routes>
 
-        <nav>
-   
-          <div>
-            <ul className='flex text-[var(--title)] font-medium '>
-              <li className='px-5'><Link to='/'>Home</Link></li>
-              <li className='px-5'><Link to='/about'>About Me</Link></li>
-              <li className='px-5'><Link to='/projects'>Projects</Link></li>
-              <li className='px-5'><Link to='/contact'>Contact</Link></li>
-            </ul>
-          </div>
-        </nav>
+        <Navbar />
 
+        </div>
       </div>
     </Router>
   )

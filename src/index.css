@@ -36,11 +36,11 @@ p {
   --info: #b7cfe6;
 }
 
-:root.dark {
-  --color-primary: #A6C739;
+:root {
+  --color-primary: #3cab23;
   --color-secondary: #E0E77F;
-  --background-primary: #00010a;
-  --background-secondary: #001012;
+  --background-primary: #0b182c;
+  --background-secondary: #0a2341;
   --background-tertiary: #002024;
   --title: #e1e1e1;
   --text: #b1b1b1;
@@ -48,7 +48,7 @@ p {
   --box-shadow: #0000000b;
   --transparent: transparent;
   --border-outline: #2a2a2a;
-  --constant-white: #060026;
+  --constant-white: #f8f8f8;
   --success: #039d21;
   --success-secondary: #224ab9;
   --error: #b92e2e;

@@ -5,8 +5,9 @@ function Home() {
     <div>
       <HeroMolecule
         title="Daniel Agu"
-        subText="Web & Mobile Software Engineer"
-        button1="Hire Me eeh"
+        subText1="Web & Mobile Software Engineer"
+        subText2="Building responsive websites and emails"
+        button1="Hire Me"
         button2="View GitHub"
       />
     </div>
