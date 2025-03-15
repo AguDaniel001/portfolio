@@ -27,7 +27,7 @@ p {
   --box-shadow: #c1c1c1;
   --transparent: transparent;
   --border-outline: #79797938;
-  --constant-white: #fff;
+  --white: #fff;
   --success: #2e5ad5;
   --success-secondary: #224ab9;
   --error: #b92e2e;
@@ -39,16 +39,16 @@ p {
 :root {
   --color-primary: #3cab23;
   --color-secondary: #E0E77F;
-  --background-primary: #0b182c;
+  --background-primary: #0b1a2f;
   --background-secondary: #0a2341;
   --background-tertiary: #002024;
-  --title: #e1e1e1;
-  --text: #b1b1b1;
+  --title: #ffffff;
+  --text: #c2d9e8;
   --text-secondary: #888;
   --box-shadow: #0000000b;
   --transparent: transparent;
   --border-outline: #2a2a2a;
-  --constant-white: #f8f8f8;
+  --white: #f8f8f8;
   --success: #039d21;
   --success-secondary: #224ab9;
   --error: #b92e2e;

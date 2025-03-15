@@ -17,14 +17,15 @@ function Navbar() {
               <Icon text={<FaHouse />} />
             </Link>
           </li>
-          <li className={active === "about" ? "active" : ""}>
-            <Link to='/about' onClick={() => setActive("about")} >
-              <Icon text={<BsPersonFill />} />
-            </Link>
-          </li>
+          
           <li className={active === "projects" ? "active" : ""}>
             <Link to='/projects' onClick={() => setActive("projects")} >
               <Icon text={<FaFolder />} />
+            </Link>
+          </li>
+          <li className={active === "about" ? "active" : ""}>
+            <Link to='/about' onClick={() => setActive("about")} >
+              <Icon text={<BsPersonFill />} />
             </Link>
           </li>
           <li className={active === "contact" ? "active" : ""}>

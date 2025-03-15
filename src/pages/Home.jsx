@@ -1,4 +1,5 @@
 import HeroMolecule from "../components/HeroMolecule"
+import SocialLinks from "../components/SocialLinks"
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
         button1="Hire Me"
         button2="View GitHub"
       />
+      <SocialLinks />
     </div>
   )
 }
