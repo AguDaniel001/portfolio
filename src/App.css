@@ -104,6 +104,7 @@
 
 .nav-container {
   width: 320px;
+  height: 54px;
   display: flex;
   justify-content: center;
   border-radius: 10px 10px 0px 0px;
@@ -120,13 +121,13 @@
   margin: 0px 10px;
   padding-top: 6px;
   margin-top: 8px;
+  transition: 0.3s;
 }
 
 .nav-container li a {
   color: var(--color-primary);
-}
-.nav-container li:hover {
-  background-color: #46ca2848;
+  transition: 0.2s;
+  
 }
 
 .nav-container li:hover a {
@@ -135,6 +136,7 @@
 
 .nav-container li.active {
   background-color: #46ca2848;
+  border: 2px solid var(--color-primary);
 }
 
 .nav-container li.active a {
